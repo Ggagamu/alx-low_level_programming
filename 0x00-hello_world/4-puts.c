@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -  Entry point of the program.
- * @return: Returns 0 to show successful execution.
+ * main - A program that prints a simple line with puts function.
+ * Return: 0 to show success.
  */
 int  main(void)
 {
