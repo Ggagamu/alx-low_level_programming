@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main -  Entry point of the program.
- * @return - Returns 0 to show successful execution.
+ * @return: Returns 0 to show successful execution.
  */
 int  main(void)
 {
