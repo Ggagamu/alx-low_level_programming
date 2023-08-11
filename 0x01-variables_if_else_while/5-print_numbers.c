@@ -11,9 +11,9 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-        for (n = '0'; n <= '9'; n++)
+	for (n = '0'; n <= '9'; n++)
 	{
-		printf("%d\n", n);
+		printf("%s\n", n);
 	}
-        return (0);
+	return (0);
 }
