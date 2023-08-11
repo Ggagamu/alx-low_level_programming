@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	int n;
+	int i;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	for (n = '0'; n <= '9'; n++)
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(n + '0');
-	}	
+		putchar(i + '0');
+	}
 	putchar('\n');
 	return (0);
 }
