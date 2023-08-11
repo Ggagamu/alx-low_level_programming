@@ -11,10 +11,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	char letter;
-	for (letter = 'a'; letter <= 'z'; letter ++);
+	char n;
+	for (n = 'a'; n <= 'z'; n ++);
 	{
-		putchar(letter);
+		putchar (n)
 	}
 	putchar('\n');
 	return (0);
