@@ -13,7 +13,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	for (n = '0'; n <= '9'; n++)
 	{
-		printf("%s\n", n);
+		printf("%u\n", n);
 	}
 	return (0);
 }
