@@ -7,18 +7,18 @@
  */
 int main(void)
 {
-        char n;
+	char n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        for (n = 'a'; n <= 'z'; n++)
-        {
-                putchar (n);
-        }
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		putchar (n);
+	}
 	for (n = 'A'; n <= 'Z'; n++)
 	{
 		putchar (n);
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
