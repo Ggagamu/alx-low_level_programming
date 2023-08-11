@@ -13,7 +13,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	for (n = 'a'; n <= 'z'; n++)
 	{
-	if (n != 'q'; && n != 'e')
+	if (n != 'q' && n != 'e')
 	{
 		putchar (n);
 	}
