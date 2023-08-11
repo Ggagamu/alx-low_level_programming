@@ -13,7 +13,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	for (n = 'z'; n >= 'a'; n++)
 	{
-		putchar (n);
+		putchar(n);
 	}
 	putchar('\n');
 	return (0);
