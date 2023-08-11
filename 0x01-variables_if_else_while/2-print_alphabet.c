@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints the alphabet
- * return: 0 to show success
+ * main - Prints the alphabet.
+ * Return: 0 to show success.
  */
 int main(void)
 {
