@@ -12,7 +12,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	for (i -'0'; i <= '9'; i++)
+	for (i -'0' i < '10' i++)
 		putchar(i + '0');
 	for (n = 'a'; n <= 'f'; n++)
 	{
