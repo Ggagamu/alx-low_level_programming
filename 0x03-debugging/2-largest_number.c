@@ -8,7 +8,7 @@
  * Return: largest number
  */
 
-int print_largest(int a, int b, int c);
+int print_largest(int a, int b, int c)
 {
 	int largest;
 
