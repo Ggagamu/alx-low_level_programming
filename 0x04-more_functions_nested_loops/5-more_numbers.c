@@ -18,7 +18,8 @@ void more_numbers(void)
 			_putchar(ch);
 			ch++;
 		}
-		_putchar('\n');
-		i++;
+	_putchar(i);
+	i++;
 	}
+	_putchar('\n');
 }
