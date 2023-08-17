@@ -2,7 +2,7 @@
 /**
  *print_numbers - Prints numbers 0 t0 9.
  */
-void print_numbers(void);
+void print_numbers(void)
 {
 	int number;
 
