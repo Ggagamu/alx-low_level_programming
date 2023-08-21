@@ -11,7 +11,7 @@ void print_array(int *c, int o)
 
 	for (j = 0; j < (o - 1); j++)
 	{
-		printf("%d, ", c[j]);
+		printf("%d", c[j]);
 	}
 	if (j == (o - 1))
 	{
