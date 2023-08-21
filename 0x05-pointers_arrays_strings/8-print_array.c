@@ -7,7 +7,7 @@
  * Return: a and n inputs
  */
 int main(void)
-void print_array(int *a, int n)
+void print_array(int *a, int n);
 {
 	int i;
 
@@ -20,4 +20,5 @@ void print_array(int *a, int n)
 		printf("%d", a[n - 1]);
 	}
 	printf("\n");
+	return (0);
 }
