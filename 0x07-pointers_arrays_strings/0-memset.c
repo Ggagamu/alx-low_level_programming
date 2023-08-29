@@ -4,7 +4,7 @@
  * @s: pointer
  * @b: constant byte
  * @n: unsigned integer
- * return : array with new value for n bytes
+ * return :new array with new value for n bytes
  */
 char *_memset(char *s, char b, unsigned int n)
 {
