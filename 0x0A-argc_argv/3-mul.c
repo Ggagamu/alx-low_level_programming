@@ -9,39 +9,39 @@
  */
 int _atoi(char *s)
 {
-	int j, e, m, len, g, digit;
+	int i, d, n, len, f, digit;
 
-	j = 0;
-	e = 0;
-	m = 0;
+	i = 0;
+	d = 0;
+	n = 0;
 	len = 0;
-	g = 0;
+	f = 0;
 	digit = 0;
 
 	while (s[len] != '\0')
 		len++;
 
-	while (j < len && g == 0)
+	while (i < len && f == 0)
 	{
-		if (s[j] == '-')
-			++e;
+		if (s[i] == '-')
+			++d;
 
-		if (s[j] >= '0' && s[j] <= '9')
+		if (s[i] >= '0' && s[i] <= '9')
 		{
-			digit = s[j] - '0';
-			if (e % 2)
+			digit = s[i] - '0';
+			if (d % 2)
 				digit = -digit;
-			m = m * 10 + digit;
-			g = 1;
-			if (s[j + 1] < '0' || s[j + 1] > '9')
+			n = n * 10 + digit;
+			f = 1;
+			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
-			g = 0;
+			f = 0;
 		}
-		j++;
+		i++;
 	}
 
-	if (g == 0)
+	if (f == 0)
 		return (0);
 
-	return (m);
+	return (n);
 }
