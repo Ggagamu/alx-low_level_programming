@@ -1,14 +1,15 @@
+#include <stdio>
 #include "main.h"
 /**
- * @argc - input
- * @argv - input
+ * main - prints the name of program
+ * @argc: arguments counter
+ * @argv: arguments volume
+ * Return : 0 shows success
  */
 int main(int argc, char *argv[])
 {
-	for (int i = 0; argv[0][i] != '\0'; i++)
-	{
-		_putchar(argv[0][i]);
-	}
-	_putchar('\n');
+	(void) argc;
+
+	printf("%s\n", *argv)
 	return (0);
 }
