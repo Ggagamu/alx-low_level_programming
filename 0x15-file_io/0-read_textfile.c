@@ -10,6 +10,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	int filde;
 	int j, m;
 	char *buffer;
+
 	if (!filename)
 		return (0);
 	filde = open(filename, O_RDONLY);
