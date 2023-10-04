@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int filde_r, filde_w, i, j, k;
-	char buffer[BUFSIZE];
+	char buffer[BUFSIZ];
 
 	if (argc != 3)
 	{
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	filde_w = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	while ((i = read(filde_r, buffer, BUFSIZE)) > 0)
+	while ((i = read(filde_r, buffer, BUFSIZ)) > 0)
 	{
 		if (filde_w < 0 || write(filde_w, buffer, i) != i)
 		{
