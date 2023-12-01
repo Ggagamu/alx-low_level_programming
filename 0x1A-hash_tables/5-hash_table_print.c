@@ -13,7 +13,7 @@ short int connector = 0;
 if (ht == NULL)
 	return;
 
-printf('{');
+putchar('{');
 for (j = 0; j < ht->size; j++)
 {
 	hash_n = ht->array[j];
