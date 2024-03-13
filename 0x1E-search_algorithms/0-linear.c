@@ -5,7 +5,7 @@
 
 /**
  * linear_search - Linearly searches for a value in an array of integers
- * @array: Array to search 
+ * @array: Array to search
  * @size: Size of the array
  * @value: Value to look for
  *
